@@ -38,10 +38,12 @@ namespace myOOP
             User user1 = new User(19,"Man","doannhatsinh","25251325");
             user1.Pets.Add(Dog);
             user1.Pets.Add(Cat);
+            //
             for(int i = 0; i < user1.Pets.Count ; i++)
             {
-                Console.WriteLine(user1.Pets[i].GetType().Name);
+                user1.Pets[i].ShowAge();
             }
+            //
             user1.Feeding(Dog);
             Console.WriteLine(Dog.level);
         }
