@@ -1,0 +1,13 @@
+/home/sinh/Documents/C#/baitap/26-10/myOOP/bin/Debug/netcoreapp3.1/myOOP
+/home/sinh/Documents/C#/baitap/26-10/myOOP/bin/Debug/netcoreapp3.1/myOOP.deps.json
+/home/sinh/Documents/C#/baitap/26-10/myOOP/bin/Debug/netcoreapp3.1/myOOP.runtimeconfig.json
+/home/sinh/Documents/C#/baitap/26-10/myOOP/bin/Debug/netcoreapp3.1/myOOP.runtimeconfig.dev.json
+/home/sinh/Documents/C#/baitap/26-10/myOOP/bin/Debug/netcoreapp3.1/myOOP.dll
+/home/sinh/Documents/C#/baitap/26-10/myOOP/bin/Debug/netcoreapp3.1/myOOP.pdb
+/home/sinh/Documents/C#/baitap/26-10/myOOP/obj/Debug/netcoreapp3.1/myOOP.csprojAssemblyReference.cache
+/home/sinh/Documents/C#/baitap/26-10/myOOP/obj/Debug/netcoreapp3.1/myOOP.AssemblyInfoInputs.cache
+/home/sinh/Documents/C#/baitap/26-10/myOOP/obj/Debug/netcoreapp3.1/myOOP.AssemblyInfo.cs
+/home/sinh/Documents/C#/baitap/26-10/myOOP/obj/Debug/netcoreapp3.1/myOOP.csproj.CoreCompileInputs.cache
+/home/sinh/Documents/C#/baitap/26-10/myOOP/obj/Debug/netcoreapp3.1/myOOP.dll
+/home/sinh/Documents/C#/baitap/26-10/myOOP/obj/Debug/netcoreapp3.1/myOOP.pdb
+/home/sinh/Documents/C#/baitap/26-10/myOOP/obj/Debug/netcoreapp3.1/myOOP.genruntimeconfig.cache
