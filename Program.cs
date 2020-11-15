@@ -7,10 +7,11 @@ namespace myOOP
     {
         static void Main(string[] args)
         {
-            Animal Dog = new Dog("Red",8,"Rice",8.5,1,5);
-            Animal Cat = new Cat("Green", 8,"catfood",3,1,5);
-            Animal Snake = new Snake("Green", 8,"catfood",3,1,5);
-            Animal Mouse = new Mouse("Green", 8,"catfood",3,1,5);
+            Animal Dog = new Dog("Red",8,"Rice",8.5,1);
+            Animal Dog2 = new Dog();
+            Animal Cat = new Cat("Green", 8,"catfood",3,1);
+            Animal Snake = new Snake("Green", 8,"catfood",3,1);
+            Animal Mouse = new Mouse("Green", 8,"catfood",3,1);
             Dog.Eat();
             Dog.Run();
             Dog.Go();
@@ -46,6 +47,11 @@ namespace myOOP
             //
             user1.Feeding(Dog);
             Console.WriteLine(Dog.level);
+            Console.WriteLine(Animal.countAM);
+            Animal result = (Dog)Dog2 - (Dog)Dog;
+            Console.WriteLine(result.GetType());
+            Console.WriteLine(Dog2.level);
+            Console.WriteLine(result.level);
         }
     }
 }

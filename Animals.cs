@@ -8,9 +8,12 @@ namespace myOOP
     }
     public abstract class Animal
     {
+        public static int countAM = 0;
         public Animal()
         {
+            this._pos = 0;
             this.level = myOOP.level.Basic;
+            countAM++;
         }
         public level? level{get;set;}
         protected string _color;

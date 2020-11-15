@@ -60,5 +60,19 @@ namespace myOOP
         {
             Console.WriteLine("Meow Meow");
         }
+        public static Animal operator+(Cat a, Cat b)
+        {
+            Animal dog = new Dog();
+            dog.level = a.level + 1;
+            return dog;
+        }
+        public static Animal operator-(Cat a, Cat b)
+        {
+            Animal snake = new Snake();
+            snake.level = a.level - 1;
+            if(snake.level < 0)
+                snake.level = 0;
+            return snake;
+        }
     }
 }

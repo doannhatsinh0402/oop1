@@ -32,7 +32,8 @@ namespace myOOP
             this.food = food;
             this.length = length;
             this.height = height;
-        }        public Dog(string color, int age, string food, double length, double height, int pos)
+        }     
+        public Dog(string color, int age, string food, double length, double height, int pos)
         {
             this.color = color;
             this.age = age;
@@ -58,6 +59,20 @@ namespace myOOP
         public override void Action()
         {
             Console.WriteLine("Guaw guaw");
+        }
+        public static Animal operator+(Dog a, Dog b)
+        {
+            Animal cat = new Cat();
+            cat.level = a.level + 1;
+            return cat;
+        }
+        public static Animal operator-(Dog a, Dog b)
+        {
+            Animal mouse = new Mouse();
+            mouse.level = a.level - 1;
+            if(mouse.level < 0)
+                mouse.level = 0;
+            return mouse;
         }
     }
 }
