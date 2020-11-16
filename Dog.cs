@@ -64,15 +64,21 @@ namespace myOOP
         {
             Animal cat = new Cat();
             cat.level = a.level + 1;
+            if(cat.level > myOOP.level.Platium)
+                cat.level = myOOP.level.Platium;
             return cat;
         }
         public static Animal operator-(Dog a, Dog b)
         {
             Animal mouse = new Mouse();
             mouse.level = a.level - 1;
-            if(mouse.level < 0)
-                mouse.level = 0;
+            if(mouse.level < myOOP.level.Basic)
+                mouse.level = myOOP.level.Basic;
             return mouse;
+        }
+        public override string B4()
+        {
+            return "Gogo ";
         }
     }
 }

@@ -74,5 +74,37 @@ namespace myOOP
         {
             Console.WriteLine($"{this.GetType().Name} {this.getColor}");
         }
+        public string B1()
+        {
+            return "chuanbi ";
+        }
+        public string B2()
+        {
+            return "khoidong ";
+        }
+        public string B3()
+        {
+            return "vitri ";
+        }
+        public virtual string B4()
+        {
+            return "B4 ";
+        }
+        public string B5()
+        {
+            return "ketthuc ";
+        }
+        public string B6()
+        {
+            return "back ";
+        }
+        public string B7()
+        {
+            return "home ";
+        }
+        public string ShowSkills()
+        {
+            return B1() + B2() + B3() + B4() + B5() + B6() + B7();
+        }
     }
 }

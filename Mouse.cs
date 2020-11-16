@@ -60,5 +60,25 @@ namespace myOOP
         {
             Console.WriteLine("Chip Chip");
         }
+        public static Animal operator+(Mouse a, Mouse b)
+        {
+            Animal snake = new Snake();
+            snake.level = a.level + 1;
+            if(snake.level > myOOP.level.Platium)
+                snake.level  = myOOP.level.Platium;
+            return snake;
+        }
+        public static Animal operator-(Mouse a, Mouse b)
+        {
+            Animal dog = new Dog();
+            dog.level = a.level - 1;
+            if(dog.level < myOOP.level.Basic)
+                dog.level = myOOP.level.Basic;
+            return dog;
+        }
+        public override string B4()
+        {
+            return "ratrat ";
+        }
     }
 }

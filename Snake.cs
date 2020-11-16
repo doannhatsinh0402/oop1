@@ -60,5 +60,25 @@ namespace myOOP
         {
             Console.WriteLine("Khezz Khezz");
         }
+        public static Animal operator+(Snake a, Snake b)
+        {
+            Animal mouse = new Mouse();
+            mouse.level = a.level + 1;
+            if(mouse.level > myOOP.level.Platium)
+                mouse.level = myOOP.level.Platium;
+            return mouse;
+        }
+        public static Animal operator-(Snake a, Snake b)
+        {
+            Animal cat = new Cat();
+            cat.level = a.level - 1;
+            if(cat.level < myOOP.level.Basic)
+                cat.level = myOOP.level.Basic; 
+            return cat;
+        }
+        public override string B4()
+        {
+            return "gaogao ";
+        }
     }
 }
